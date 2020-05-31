@@ -228,18 +228,18 @@ for x in range(350,650,100):
     rects += [row]
 
 #------------------MEMORY------------------
-circ_1 = image.load("sprites/circle_blue.png")
-circ_2 = image.load("sprites/circle_red.png")
-circ_3 = image.load("sprites/circle_green.png")
-penta_1 = image.load("sprites/penta_blue.png")
-penta_2 = image.load("sprites/penta_red.png")
-penta_3 = image.load("sprites/penta_green.png")
-rect_1 = image.load("sprites/rect_blue.png")
-rect_2 = image.load("sprites/rect_red.png")
-rect_3 = image.load("sprites/rect_green.png")
-star_1 = image.load("sprites/star_blue.png")
-star_2 = image.load("sprites/star_red.png")
-star_3 = image.load("sprites/star_green.png")
+circ_1 = image.load("circle_blue.png")
+circ_2 = image.load("circle_red.png")
+circ_3 = image.load("circle_green.png")
+penta_1 = image.load("penta_blue.png")
+penta_2 = image.load("penta_red.png")
+penta_3 = image.load("penta_green.png")
+rect_1 = image.load("rect_blue.png")
+rect_2 = image.load("rect_red.png")
+rect_3 = image.load("rect_green.png")
+star_1 = image.load("star_blue.png")
+star_2 = image.load("star_red.png")
+star_3 = image.load("star_green.png")
 card_c = [circ_1,circ_2,circ_3,penta_1,penta_2,penta_3, rect_1,rect_2,rect_3,star_1,star_2,star_3,circ_1,circ_2,circ_3,penta_1,penta_2,penta_3, rect_1,rect_2,rect_3,star_1,star_2,star_3]
 """
 card_types = [x for x in range(15)]
